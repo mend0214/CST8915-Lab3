@@ -9,6 +9,8 @@ https://youtu.be/wG8-J4mOX2U
 **1. What challenges did you encounter when configuring environment variables in the GitHub Actions workflow?**
 Due to Azure limitations I am unable to use Static Web Apps for my store-front.
 
+![alt text](StaticWebAppError.png)
+
 **2. How does deploying microservices on Azure Web App Service differ from running them locally?**
 In my opinion, deploying microservices on Azure Web App Service is easier and faster since we don't have to 
 set up the VM and deploy the microservices with a button. Adding the environment variables is fairly easy on the Azure portal. Continuous deployment is very helpful because we don't have to restart the application when making changes.
